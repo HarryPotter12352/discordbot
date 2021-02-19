@@ -35,7 +35,7 @@ async def dumb(ctx, member : discord.Member):
     await ctx.send(f"{member.mention} is really dumb")
     await member.send(f"{ctx.author} says you are dumb")
 
-purge_limitk = 1
+
 
 @client.command()
 @commands.has_role("Moderator")
